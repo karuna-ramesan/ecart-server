@@ -16,7 +16,7 @@ const router=require('./routes/router')
 // create server app
 const server=express()
 // to store port number
-const PORT = 3000
+const PORT = 3000 || process.env.PORT
 
 
 // use cors express.json and router in server app
